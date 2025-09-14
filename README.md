@@ -19,19 +19,24 @@ git clone https://github.com/YourUsername/persian-stylometry-analyzer.git
 cd persian-stylometry-analyzer
 ```
 2. Create and activate a virtual environment:
+```bash
 python -m venv venv
-
+```
 # On Windows
+```bash
 venv\Scripts\activate
-
+```
 # On macOS/Linux
+```bash
 source venv/bin/activate
-
+```
 3. Install the required packages:
-
+```bash
 pip install -r requirements.txt
-
+```
 How to Run
 With your virtual environment active, run the Flask application:
+```bash
 python -m flask run
+```
 Then, open your web browser and navigate to http://127.0.0.1:5000.
