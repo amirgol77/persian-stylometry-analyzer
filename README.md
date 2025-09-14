@@ -17,3 +17,21 @@ A web-based tool built with Flask and Hazm to perform comprehensive stylistic an
 ```bash
 git clone https://github.com/YourUsername/persian-stylometry-analyzer.git
 cd persian-stylometry-analyzer
+```
+2. Create and activate a virtual environment:
+python -m venv venv
+
+# On Windows
+venv\Scripts\activate
+
+# On macOS/Linux
+source venv/bin/activate
+
+3. Install the required packages:
+
+pip install -r requirements.txt
+
+How to Run
+With your virtual environment active, run the Flask application:
+python -m flask run
+Then, open your web browser and navigate to http://127.0.0.1:5000.
