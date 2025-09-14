@@ -6,3 +6,4 @@ nltk
 matplotlib
 bidi
 pandas
+gunicorn
