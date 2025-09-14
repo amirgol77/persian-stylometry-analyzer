@@ -1,0 +1,368 @@
+{
+  "یعنی": {
+    "CONJUNCTION": "Elaboration/Apposition"
+  },
+  "به عبارت دیگر": {
+    "CONJUNCTION": "Elaboration/Apposition"
+  },
+  "به بیان دیگر": {
+    "CONJUNCTION": "Elaboration/Apposition"
+  },
+  "مثلاً": {
+    "CONJUNCTION": "Elaboration/Apposition"
+  },
+  "برای مثال": {
+    "CONJUNCTION": "Elaboration/Apposition"
+  },
+  "به عنوان مثال": {
+    "CONJUNCTION": "Elaboration/Apposition"
+  },
+  "از جمله": {
+    "CONJUNCTION": "Elaboration/Apposition"
+  },
+  "همچون": {
+    "CONJUNCTION": "Elaboration/Apposition"
+  },
+  "از قبیل": {
+    "CONJUNCTION": "Elaboration/Apposition"
+  },
+  "به این معنا که": {
+    "CONJUNCTION": "Elaboration/Apposition"
+  },
+  "به عبارت ساده تر": {
+    "CONJUNCTION": "Elaboration/Apposition"
+  },
+  "به طور خاص": {
+    "CONJUNCTION": " Elaboration/Clarification "
+  },
+  "بلکه": {
+    "CONJUNCTION": " Elaboration/Clarification "
+  },
+  "در واقع": {
+    "CONJUNCTION": " Elaboration/Clarification "
+  },
+  "به هر حال": {
+    "CONJUNCTION": " Elaboration/Clarification "
+  },
+  "به ویژه": {
+    "CONJUNCTION": " Elaboration/Clarification "
+  },
+  "در هر صورت": {
+    "CONJUNCTION": " Elaboration/Clarification "
+  },
+  "مشخصاً": {
+    "CONJUNCTION": " Elaboration/Clarification "
+  },
+  "دقیق‌تر بگویم": {
+    "CONJUNCTION": " Elaboration/Clarification "
+  },
+  "اساساً": {
+    "CONJUNCTION": " Elaboration/Clarification "
+  },
+  "خلاصه": {
+    "CONJUNCTION": " Elaboration/Clarification "
+  },
+  "در اصل": {
+    "CONJUNCTION": " Elaboration/Clarification "
+  },
+  "بهتر است بگوییم": {
+    "CONJUNCTION": " Elaboration/Clarification "
+  },
+  "به بیان دقیق‌تر": {
+    "CONJUNCTION": " Elaboration/Clarification "
+  },
+  "و": {
+    "CONJUNCTION": " Extension/ Additive"
+  },
+  "همچنین": {
+    "CONJUNCTION": " Extension/ Additive"
+  },
+  "بعلاوه": {
+    "CONJUNCTION": " Extension/ Additive"
+  },
+  "علاوه بر این": {
+    "CONJUNCTION": " Extension/ Additive"
+  },
+  "نیز": {
+    "CONJUNCTION": " Extension/ Additive"
+  },
+  "هم": {
+    "CONJUNCTION": " Extension/ Additive"
+  },
+  "افزون بر این": {
+    "CONJUNCTION": " Extension/ Additive"
+  },
+  "گذشته از این": {
+    "CONJUNCTION": " Extension/ Additive"
+  },
+  "اما": {
+    "CONJUNCTION": "Extension/Adversative"
+  },
+  "ولی": {
+    "CONJUNCTION": "Extension/Adversative"
+  },
+  "لیکن": {
+    "CONJUNCTION": "Extension/Adversative"
+  },
+  "با این حال": {
+    "CONJUNCTION": "Extension/Adversative"
+  },
+  "برعکس": {
+    "CONJUNCTION": "Extension/Adversative"
+  },
+  "بالعکس": {
+    "CONJUNCTION": "Extension/Adversative"
+  },
+  "با این وجود": {
+    "CONJUNCTION": "Extension/Adversative"
+  },
+  "با این همه": {
+    "CONJUNCTION": "Extension/Adversative"
+  },
+  "در حالی که": {
+    "CONJUNCTION": "Extension/Adversative"
+  },
+  "از طرفی": {
+    "CONJUNCTION": "Extension/Adversative"
+  },
+  "یا": {
+    "CONJUNCTION": "Extension/ Verifying"
+  },
+  "در عوض": {
+    "CONJUNCTION": "Extension/ Verifying"
+  },
+  "یا اینکه": {
+    "CONJUNCTION": "Extension/ Verifying"
+  },
+  "به جای آن": {
+    "CONJUNCTION": "Extension/ Verifying"
+  },
+  "در غیر این صورت": {
+    "CONJUNCTION": "Extension/ Verifying"
+  },
+  "در خصوص": {
+    "CONJUNCTION": "Enhancement/Matter"
+  },
+  "در مورد": {
+    "CONJUNCTION": "Enhancement/Matter"
+  },
+  "از این نظر": {
+    "CONJUNCTION": "Enhancement/Matter"
+  },
+  "از این حیث": {
+    "CONJUNCTION": "Enhancement/Matter"
+  },
+  "از یک جنبه": {
+    "CONJUNCTION": "Enhancement/Matter"
+  },
+  "از یک لحاظ": {
+    "CONJUNCTION": "Enhancement/Matter"
+  },
+  "راجع به": {
+    "CONJUNCTION": "Enhancement/Matter"
+  },
+  "در رابطه با": {
+    "CONJUNCTION": "Enhancement/Matter"
+  },
+  "به لحاظ": {
+    "CONJUNCTION": "Enhancement/Matter"
+  },
+  "از دیدگاه": {
+    "CONJUNCTION": "Enhancement/Matter"
+  },
+  "از منظر": {
+    "CONJUNCTION": "Enhancement/Matter"
+  },
+  "از جهتی": {
+    "CONJUNCTION": "Enhancement/Matter"
+  },
+  "از یک سو": {
+    "CONJUNCTION": "Enhancement/Matter"
+  },
+  "سپس": {
+    "CONJUNCTION": "Enhancement/Spatiotemporal"
+  },
+  "بعد": {
+    "CONJUNCTION": "Enhancement/Spatiotemporal"
+  },
+  "بعداً": {
+    "CONJUNCTION": "Enhancement/Spatiotemporal"
+  },
+  "آنگاه": {
+    "CONJUNCTION": "Enhancement/Spatiotemporal"
+  },
+  "به زودی": {
+    "CONJUNCTION": "Enhancement/Spatiotemporal"
+  },
+  "در این میان": {
+    "CONJUNCTION": "Enhancement/Spatiotemporal"
+  },
+  "در همین حال": {
+    "CONJUNCTION": "Enhancement/Spatiotemporal"
+  },
+  "تا کنون": {
+    "CONJUNCTION": "Enhancement/Spatiotemporal"
+  },
+  "تا به حال": {
+    "CONJUNCTION": "Enhancement/Spatiotemporal"
+  },
+  "همزمان": {
+    "CONJUNCTION": "Enhancement/Spatiotemporal"
+  },
+  "اکنون": {
+    "CONJUNCTION": "Enhancement/Spatiotemporal"
+  },
+  "قبلاً": {
+    "CONJUNCTION": "Enhancement/Spatiotemporal"
+  },
+  "سرانجام": {
+    "CONJUNCTION": "Enhancement/Spatiotemporal"
+  },
+  "هنوز": {
+    "CONJUNCTION": "Enhancement/Spatiotemporal"
+  },
+  "پس از آن": {
+    "CONJUNCTION": "Enhancement/Spatiotemporal"
+  },
+  "نخست": {
+    "CONJUNCTION": "Enhancement/Spatiotemporal"
+  },
+  "ابتدا": {
+    "CONJUNCTION": "Enhancement/Spatiotemporal"
+  },
+  "در نهایت": {
+    "CONJUNCTION": "Enhancement/Spatiotemporal"
+  },
+  "بالاخره": {
+    "CONJUNCTION": "Enhancement/Spatiotemporal"
+  },
+  "حالا": {
+    "CONJUNCTION": "Enhancement/Spatiotemporal"
+  },
+  "پیشتر": {
+    "CONJUNCTION": "Enhancement/Spatiotemporal"
+  },
+  "وقتی که": {
+    "CONJUNCTION": "Enhancement/Spatiotemporal"
+  },
+  "همیشه": {
+    "CONJUNCTION": "Enhancement/Spatiotemporal"
+  },
+  "گاهی": {
+    "CONJUNCTION": "Enhancement/Spatiotemporal"
+  },
+  "متعاقباً": {
+    "CONJUNCTION": "Enhancement/Spatiotemporal"
+  },
+  "عاقبت": {
+    "CONJUNCTION": "Enhancement/Spatiotemporal"
+  },
+  "سابقاً": {
+    "CONJUNCTION": "Enhancement/Spatiotemporal"
+  },
+  "همانطور": {
+    "CONJUNCTION": "Enhancement/Manner"
+  },
+  "به طور مشابه": {
+    "CONJUNCTION": "Enhancement/Manner"
+  },
+  "به همین ترتیب": {
+    "CONJUNCTION": "Enhancement/Manner"
+  },
+  "به روشی دیگر": {
+    "CONJUNCTION": "Enhancement/Manner"
+  },
+  "به گونه‌ای دیگر": {
+    "CONJUNCTION": "Enhancement/Manner"
+  },
+  "به همین منوال": {
+    "CONJUNCTION": "Enhancement/Manner"
+  },
+  "به همان شکل": {
+    "CONJUNCTION": "Enhancement/Manner"
+  },
+  "همانند": {
+    "CONJUNCTION": "Enhancement/Manner"
+  },
+  "مانند": {
+    "CONJUNCTION": "Enhancement/Manner"
+  },
+  "بنابراین": {
+    "CONJUNCTION": " Enhancement/ CausalConditional"
+  },
+  "در نتیجه": {
+    "CONJUNCTION": " Enhancement/ CausalConditional"
+  },
+  "از این رو": {
+    "CONJUNCTION": " Enhancement/ CausalConditional"
+  },
+  "تا": {
+    "CONJUNCTION": " Enhancement/ CausalConditional"
+  },
+  "پس": {
+    "CONJUNCTION": " Enhancement/ CausalConditional"
+  },
+  "چون": {
+    "CONJUNCTION": " Enhancement/ CausalConditional"
+  },
+  "زیرا": {
+    "CONJUNCTION": " Enhancement/ CausalConditional"
+  },
+  "اگر": {
+    "CONJUNCTION": " Enhancement/ CausalConditional"
+  },
+  "چنانچه": {
+    "CONJUNCTION": " Enhancement/ CausalConditional"
+  },
+  "مگر اینکه": {
+    "CONJUNCTION": " Enhancement/ CausalConditional"
+  },
+  "اگرچه": {
+    "CONJUNCTION": " Enhancement/ CausalConditional"
+  },
+  "هرچند": {
+    "CONJUNCTION": " Enhancement/ CausalConditional"
+  },
+  "با وجود اینکه": {
+    "CONJUNCTION": " Enhancement/ CausalConditional"
+  },
+  "علیرغم اینکه": {
+    "CONJUNCTION": " Enhancement/ CausalConditional"
+  },
+  "در صورتی که": {
+    "CONJUNCTION": " Enhancement/ CausalConditional"
+  },
+  "مشروط بر اینکه": {
+    "CONJUNCTION": " Enhancement/ CausalConditional"
+  },
+  "حتی اگر": {
+    "CONJUNCTION": " Enhancement/ CausalConditional"
+  },
+  "به‌خصوص": {
+    "CONJUNCTION": "Elaboration/Clarification"
+  },
+  "از آنجا که": {
+    "CONJUNCTION": "Enhancement/CausalConditional"
+  },
+  "به‌محض آنکه": {
+    "CONJUNCTION": "Enhancement/Spatiotemporal"
+  },
+  "به هر صورت": {
+    "CONJUNCTION": " Elaboration/Clarification "
+  },
+  "از این گذشته": {
+    "CONJUNCTION": " Extension/ Additive"
+  },
+  "با وجود این": {
+    "CONJUNCTION": "Extension/Adversative"
+  },
+  "بعد از آنکه": {
+    "CONJUNCTION": "Enhancement/Spatiotemporal"
+  },
+  "از آن پس": {
+    "CONJUNCTION": "Enhancement/Spatiotemporal"
+  },
+  "پیش از آنکه": {
+    "CONJUNCTION": "Enhancement/Spatiotemporal"
+  }	
+}

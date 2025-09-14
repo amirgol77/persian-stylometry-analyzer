@@ -1,0 +1,8 @@
+Flask
+hazm
+arabic-reshaper
+numpy
+nltk
+matplotlib
+bidi
+pandas

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Persian Stylometry Analyzer</title>
+    <style>
+        body { font-family: sans-serif; margin: 40px; text-align: center; }
+        .container { max-width: 600px; margin: auto; border: 1px solid #ccc; padding: 20px; border-radius: 8px; }
+        input[type="file"] { margin: 20px 0; }
+        input[type="submit"] { padding: 10px 20px; background-color: #007bff; color: white; border: none; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Persian Text Stylometry Analyzer</h1>
+        <p>Upload a Persian UTF-8 encoded text file (.txt) to analyze its stylistic features.</p>
+        <form action="/analyze" method="post" enctype="multipart/form-data">
+            <input type="file" name="file" accept=".txt">
+            <br>
+            <input type="submit" value="Analyze Text">
+        </form>
+    </div>
+</body>
+</html>

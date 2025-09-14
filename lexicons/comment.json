@@ -1,0 +1,182 @@
+{
+  "صادقانه": {
+    "COMMENT": "Admissive"
+  },
+  "راستش": {
+    "COMMENT": "Admissive"
+  },
+  "حقیقتش": {
+    "COMMENT": "Admissive"
+  },
+  "بی تعارف": {
+    "COMMENT": "Admissive"
+  },
+  "رک و پوست کنده": {
+    "COMMENT": "Admissive"
+  },
+  "قطعاً": {
+    "COMMENT": "Assertive"
+  },
+  "مطمئناً": {
+    "COMMENT": "Assertive"
+  },
+  "حتماً": {
+    "COMMENT": "Assertive"
+  },
+  "بی شک": {
+    "COMMENT": "Assertive"
+  },
+  "یقیناً": {
+    "COMMENT": "Assertive"
+  },
+  "مسلماً": {
+    "COMMENT": "Assertive"
+  },
+  "متأسفانه": {
+    "COMMENT": "Desiderative"
+  },
+  "خوشبختانه": {
+    "COMMENT": "Desiderative"
+  },
+  "حیف": {
+    "COMMENT": "Desiderative"
+  },
+  "ای کاش": {
+    "COMMENT": "Desiderative"
+  },
+  "عاقلانه": {
+    "COMMENT": "Evaluative"
+  },
+  "هوشمندانه": {
+    "COMMENT": "Evaluative"
+  },
+  "به درستی": {
+    "COMMENT": "Evaluative"
+  },
+  "به اشتباه": {
+    "COMMENT": "Evaluative"
+  },
+  "احمقانه": {
+    "COMMENT": "Evaluative"
+  },
+  "همانطور که انتظار می‌رفت": {
+    "COMMENT": "Predictive"
+  },
+  "طبق انتظار": {
+    "COMMENT": "Predictive"
+  },
+  "همانطور که پیش‌بینی می‌شد": {
+    "COMMENT": "Predictive"
+  },
+  "برخلاف انتظار": {
+    "COMMENT": "Predictive"
+  },
+  "گمان می‌کنم که": {
+    "COMMENT": "Presumptive"
+  },
+  "فرض می‌کنم که": {
+    "COMMENT": "Presumptive"
+  },
+  "ظاهراً": {
+    "COMMENT": "Presumptive"
+  },
+  "احتمالاً": {
+    "COMMENT": "Presumptive"
+  },
+  "به نظر می‌رسد که": {
+    "COMMENT": "Presumptive"
+  },
+  "به طور آزمایشی": {
+    "COMMENT": "Tentative"
+  },
+  "با احتیاط": {
+    "COMMENT": "Tentative"
+  },
+  "شاید": {
+    "COMMENT": "Tentative"
+  },
+  "ممکن است": {
+    "COMMENT": "Tentative"
+  },
+  "موقتاً": {
+    "COMMENT": "Tentative"
+  },
+  "به طور کلی": {
+    "COMMENT": "Validative"
+  },
+  "عموماً": {
+    "COMMENT": "Validative"
+  },
+  "معمولاً": {
+    "COMMENT": "Validative"
+  },
+  "در اکثر موارد": {
+    "COMMENT": "Validative"
+  },
+  "اساساً": {
+    "COMMENT": "Validative"
+  },
+  "از نظر فنی": {
+    "COMMENT": "Validative"
+  },
+  "البته": {
+    "COMMENT": "Assertive"
+  },
+  "دریغا": {
+    "COMMENT": "Desiderative"
+  },
+  "شگفتا": {
+    "COMMENT": "Evaluative"
+  },
+  "روی هم رفته": {
+    "COMMENT": "Validative"
+  },
+  "واقعا": {
+    "COMMENT": "Assertive"
+  },
+  "لابد": {
+    "COMMENT": "Presumptive"
+  },
+  "خدا کند": {
+    "COMMENT": "Desiderative"
+  },
+  "یقین داشتن": {
+    "COMMENT": "Assertive"
+  },
+  "احتمال داشتن": {
+    "COMMENT": "Presumptive"
+  },
+  "گمان کردن": {
+    "COMMENT": "Presumptive"
+  },
+  "خیال کردن": {
+    "COMMENT": "Presumptive"
+  },
+  "بی‌جهت": {
+    "COMMENT": "Evaluative"
+  },
+  "حقیقتا": {
+    "COMMENT": "Admissive"
+  },
+  "در حقیقت": {
+    "COMMENT": "Admissive"
+  },
+  "به راستی": {
+    "COMMENT": "Assertive"
+  },
+  "عجیب است که": {
+    "COMMENT": "Evaluative"
+  },
+  "جالب است که": {
+    "COMMENT": "Evaluative"
+  },
+  "طبیعتا": {
+    "COMMENT": "Evaluative"
+  },
+  "به گمانم": {
+    "COMMENT": "Presumptive"
+  },
+  "در کل": {
+    "COMMENT": "Validative"
+  }
+}

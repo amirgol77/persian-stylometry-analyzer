@@ -1,0 +1,119 @@
+{
+  "همیشه": {
+    "MODALITY": "Modalization (High)"
+  },
+  "همواره": {
+    "MODALITY": "Modalization (High)"
+  },
+  "دائماً": {
+    "MODALITY": "Modalization (High)"
+  },
+  "حتماً": {
+    "MODALITY": "Modalization (High)"
+  },
+  "قطعاً": {
+    "MODALITY": "Modalization (High)"
+  },
+  "مسلماً": {
+    "MODALITY": "Modalization (High)"
+  },
+  "باید": {
+    "MODALITY": "Modalization (High)"
+  },
+  "نباید": {
+    "MODALITY": "Modalization (High)"
+  },
+  "اغلب": {
+    "MODALITY": "Modalization (High)"
+  },
+  "معمولاً": {
+    "MODALITY": "Modalization (High)"
+  },
+  "احتمالاً": {
+    "MODALITY": "Modalization (Medium)"
+  },
+  "شاید": {
+    "MODALITY": "Modalization (Medium)"
+  },
+  "ظاهراً": {
+    "MODALITY": "Modalization (Medium)"
+  },
+  "گویا": {
+    "MODALITY": "Modalization (Medium)"
+  },
+  "گاهی": {
+    "MODALITY": "Modalization (Low)"
+  },
+  "به ندرت": {
+    "MODALITY": "Modalization (Low)"
+  },
+  "هرگز": {
+    "MODALITY": "Modalization (Low)"
+  },
+  "ممکن است": {
+    "MODALITY": "Modulation (Medium)"
+  },
+  "آماده": {
+    "MODALITY": "Modulation (High)"
+  },
+  "حاضر": {
+    "MODALITY": "Modulation (High)"
+  },
+  "بهتر است": {
+    "MODALITY": "Modulation (Medium)"
+  },
+  "لازم است": {
+    "MODALITY": "Modulation (High)"
+  },
+  "توانستن": {
+    "MODALITY": "Modulation (Medium)"
+  },
+  "اجبار": {
+    "MODALITY": "Modulation (High)"
+  },
+  "خواستن": {
+    "MODALITY": "Modulation (Medium)"
+  },
+  "قصد": {
+    "MODALITY": "Modulation (Medium)"
+  },
+  "مایل": {
+    "MODALITY": "Modulation (Low)"
+  },
+  "قادر": {
+    "MODALITY": "Modulation (Medium)"
+  },
+  "یقیناً": {
+    "MODALITY": "Modalization (High)"
+  },
+  "بی‌شک": {
+    "MODALITY": "Modalization (High)"
+  },
+  "می‌توانست": {
+    "MODALITY": "Modulation (Medium)"
+  },
+  "میل داشتن": {
+    "MODALITY": "Modulation (Low)"
+  },
+  "مطمئنا": {
+    "MODALITY": "Modalization (High)"
+  },
+  "بایستی": {
+    "MODALITY": "Modulation (High)"
+  },
+  "نبایستی": {
+    "MODALITY": "Modulation (High)"
+  },
+  "بی‌تردید": {
+    "MODALITY": "Modalization (High)"
+  },
+  "بدون شک": {
+    "MODALITY": "Modalization (High)"
+  },
+  "به نظر می‌رسد": {
+    "MODALITY": "Modalization (Medium)"
+  },
+  "شایسته است": {
+    "MODALITY": "Modulation (Medium)"
+  }
+}

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl"> <!-- Added dir="rtl" for better Persian text alignment -->
+<head>
+    <meta charset="UTF-8">
+    <title>نتایج تحلیل متن</title> <!-- Title in Persian -->
+    <style>
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; 
+            margin: 20px; 
+            background-color: #f9f9f9;
+            direction: rtl; /* Set text direction to right-to-left */
+        }
+        h1, h2, h3 { 
+            color: #333; 
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .section { 
+            border: 1px solid #ddd; 
+            border-radius: 5px; 
+            padding: 15px; 
+            margin-bottom: 20px; 
+        }
+        .plot { text-align: center; margin: 20px 0; }
+        .plot img { max-width: 100%; height: auto; border: 1px solid #ccc; }
+        table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+        th, td { border: 1px solid #ddd; padding: 10px; text-align: right; } /* Text align right for RTL */
+        th { background-color: #f2f2f2; font-weight: bold; }
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        .mono { font-family: "Courier New", Courier, monospace; direction: ltr; text-align: left; }
+        a { color: #007bff; text-decoration: none; font-size: 1.2em; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>نتایج تحلیل استایل‌سنجی</h1>
+
+        <!-- =========== BASIC STATS =========== -->
+        <div class="section">
+            <h2>آمار پایه</h2>
+            <table>
+                <tr><th>مورد</th><th>تعداد</th></tr>
+                <tr><td>تعداد کاراکترها (خام)</td><td>{{ results.basic_stats.raw_char_count }}</td></tr>
+                <tr><td>تعداد کلمات (خام)</td><td>{{ results.basic_stats.raw_token_count }}</td></tr>
+                <tr><td>تعداد کاراکترها (پردازش‌شده)</td><td>{{ results.basic_stats.processed_char_count }}</td></tr>
+                <tr><td>تعداد کلمات (پردازش‌شده)</td><td>{{ results.basic_stats.processed_token_count }}</td></tr>
+            </table>
+        </div>
+
+        <!-- =========== VOCABULARY RICHNESS =========== -->
+        <div class="section">
+            <h2>شاخص‌های غنای واژگان</h2>
+            <div class="grid-container">
+                <div>
+                    <table>
+                        <tr><th>متریک</th><th>مقدار</th></tr>
+                        <tr><td>نسبت نوع به توکن (TTR)</td><td>{{ "%.4f"|format(results.vocabulary_richness.ttr) }}</td></tr>
+                        <tr><td>ریشه TTR</td><td>{{ "%.4f"|format(results.vocabulary_richness.root_ttr) }}</td></tr>
+                        <tr><td>لگاریتم TTR</td><td>{{ "%.4f"|format(results.vocabulary_richness.log_ttr) }}</td></tr>
+                        <tr><td>Yule's K</td><td>{{ "%.4f"|format(results.vocabulary_richness.yule_k) }}</td></tr>
+                        <tr><td>تعداد کل توکن‌ها</td><td>{{ results.vocabulary_richness.total_tokens }}</td></tr>
+                        <tr><td>تعداد توکن‌های یکتا</td><td>{{ results.vocabulary_richness.unique_tokens }}</td></tr>
+                        <tr><td>کلمات تک رخداد (Hapax)</td><td>{{ results.vocabulary_richness.hapax_count }}</td></tr>
+                        <tr><td>کلمات دو رخداد (Dis)</td><td>{{ results.vocabulary_richness.dis_count }}</td></tr>
+                    </table>
+                </div>
+                <div>
+                    <h4>نمونه کلمات تک رخداد (Hapax):</h4>
+                    <p>{{ results.vocabulary_richness.hapax_legomena_words[:20] | join(', ') }}</p>
+                    <h4>نمونه کلمات دو رخداد (Dis):</h4>
+                    <p>{{ results.vocabulary_richness.dis_legomena_words[:20] | join(', ') }}</p>
+                </div>
+            </div>
+            <div class="plot">
+                <h3>نمودار شاخص‌های غنای واژگان</h3>
+                <img src="data:image/png;base64,{{ plots.vocab_richness }}">
+            </div>
+        </div>
+
+        <!-- =========== SENTENCE COMPLEXITY =========== -->
+        <div class="section">
+            <h2>تحلیل پیچیدگی جملات (بر اساس تعداد فعل)</h2>
+            <table>
+                <tr><th>نوع جمله</th><th>تعداد</th><th>درصد</th></tr>
+                <tr><td>کل جملات تحلیل‌شده</td><td>{{ results.sentence_complexity.total_sentences }}</td><td>100%</td></tr>
+                <tr><td>جملات ساده (۱ فعل)</td><td>{{ results.sentence_complexity.simple_sentences }}</td><td>{{ "%.1f"|format(results.sentence_complexity.simple_percentage) }}%</td></tr>
+                <tr><td>جملات پیچیده (۲+ فعل)</td><td>{{ results.sentence_complexity.complex_sentences }}</td><td>{{ "%.1f"|format(results.sentence_complexity.complex_percentage) }}%</td></tr>
+                <tr><td>جملات بدون فعل</td><td>{{ results.sentence_complexity.no_verb_sentences }}</td><td>{{ "%.1f"|format(results.sentence_complexity.no_verb_percentage) }}%</td></tr>
+            </table>
+        </div>
+
+        <!-- =========== SFG FEATURES =========== -->
+        <div class="section">
+            <h2>تحلیل ویژگی‌های سبکی SFG</h2>
+            <p><strong>مجموع ویژگی‌های یافت‌شده:</strong> {{ results.sfg_features.total_features_found }}</p>
+            <table>
+                <tr><th>ویژگی (Attribute)</th><th>مقدار (Value)</th><th>فراوانی نسبی</th></tr>
+                {% for feature, freq in results.sfg_features.feature_relative_frequencies.items() %}
+                <tr>
+                    {% set parts = feature.split('|') %}
+                    <td>{{ parts[0] }}</td>
+                    <td>{{ parts[1] }}</td>
+                    <td>{{ "%.4f"|format(freq) }}</td>
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+
+        <!-- =========== WORD FREQUENCIES =========== -->
+        <div class="section">
+            <h2>فراوانی کلمات</h2>
+            <div class="plot">
+                <h3>نمودار ۲۰ کلمه با بیشترین فراوانی</h3>
+                <img src="data:image/png;base64,{{ plots.word_freq }}">
+            </div>
+            <h3>لیست ۱۰۰ کلمه با بیشترین فراوانی</h3>
+            <table>
+                <tr><th>رتبه</th><th>کلمه</th><th>تعداد</th><th>درصد از کل</th></tr>
+                {% for word, count in results.word_frequencies.top_100_words %}
+                <tr>
+                    <td>{{ loop.index }}</td>
+                    <td>{{ word }}</td>
+                    <td>{{ count }}</td>
+                    <td>{{ "%.2f"|format((count / results.vocabulary_richness.total_tokens) * 100) }}%</td>
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+
+        <!-- =========== N-GRAMS =========== -->
+        <div class="section">
+            <h2>تحلیل N-gram‌ها</h2>
+            <div class="plot">
+                <h3>۱۰ Unigram برتر</h3>
+                <img src="data:image/png;base64,{{ plots.ngrams_unigrams }}">
+            </div>
+            <div class="plot">
+                <h3>۱۰ Bigram برتر</h3>
+                <img src="data:image/png;base64,{{ plots.ngrams_bigrams }}">
+            </div>
+            
+            <h3>لیست ۱۰ Bigram برتر</h3>
+            <table>
+                <tr><th>Bigram</th><th>تعداد</th></tr>
+                {% for bigram, count in results.ngrams.bigrams.top_10 %}
+                <tr><td>{{ bigram }}</td><td>{{ count }}</td></tr>
+                {% endfor %}
+            </table>
+
+            <h3>لیست ۱۰ Trigram برتر</h3>
+            <table>
+                <tr><th>Trigram</th><th>تعداد</th></tr>
+                {% for trigram, count in results.ngrams.trigrams.top_10 %}
+                <tr><td>{{ trigram }}</td><td>{{ count }}</td></tr>
+                {% endfor %}
+            </table>
+        </div>
+
+        <!-- =========== POS TAGS =========== -->
+        <div class="section">
+            <h2>تحلیل تگ‌های دستوری (POS)</h2>
+            <div class="plot">
+                <h3>نمودار توزیع تگ‌های دستوری</h3>
+                <img src="data:image/png;base64,{{ plots.pos_dist }}">
+            </div>
+            <h3>فراوانی تگ‌های دستوری</h3>
+            <table>
+                <tr><th>تگ</th><th>توضیح</th><th>تعداد</th><th>درصد</th></tr>
+                {% for tag, count, description in results.pos_analysis.most_common %}
+                <tr>
+                    <td class="mono">{{ tag }}</td>
+                    <td>{{ description }}</td>
+                    <td>{{ count }}</td>
+                    <td>{{ "%.1f"|format(results.pos_analysis.tag_percentages[tag]) }}%</td>
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+
+        <!-- =========== WORD AND SENTENCE LENGTHS =========== -->
+        <div class="section">
+            <h2>تحلیل طول کلمات و جملات</h2>
+            <div class="plot">
+                <h3>منحنی مشخصه مندنهال (توزیع طول کلمات)</h3>
+                <img src="data:image/png;base64,{{ plots.word_length }}">
+            </div>
+            <div class="plot">
+                <h3>توزیع طول جملات (بر اساس تعداد کلمات)</h3>
+                <img src="data:image/png;base64,{{ plots.sentence_length }}">
+            </div>
+        </div>
+
+        <!-- =========== ALPHABET & PUNCTUATION =========== -->
+        <div class="section">
+            <h2>توزیع حروف الفبا و علائم نگارشی</h2>
+             <div class="grid-container">
+                <div>
+                    <h3>توزیع حروف الفبا</h3>
+                    <div class="plot"><img src="data:image/png;base64,{{ plots.alphabet_dist }}"></div>
+                    <table>
+                        <tr><th>حرف</th><th>تعداد</th><th>درصد</th></tr>
+                        {% for char, count in results.alphabet_distribution.counts.items() %}
+                        <tr>
+                            <td>{{ char }}</td>
+                            <td>{{ count }}</td>
+                            <td>{{ "%.2f"|format(results.alphabet_distribution.percentages[char]) }}%</td>
+                        </tr>
+                        {% endfor %}
+                    </table>
+                </div>
+                 <div>
+                    <h3>توزیع علائم نگارشی</h3>
+                    <div class="plot"><img src="data:image/png;base64,{{ plots.punc_dist }}"></div>
+                     <table>
+                        <tr><th>علامت</th><th>تعداد</th><th>درصد</th></tr>
+                        {% for punc, count in results.punctuation_distribution.counts.items() %}
+                        <tr>
+                            <td>{{ punc }}</td>
+                            <td>{{ count }}</td>
+                            <td>{{ "%.2f"|format(results.punctuation_distribution.percentages[punc]) }}%</td>
+                        </tr>
+                        {% endfor %}
+                    </table>
+                 </div>
+            </div>
+        </div>
+
+        <br>
+        <a href="/">تحلیل یک فایل دیگر</a>
+    </div>
+</body>
+</html>

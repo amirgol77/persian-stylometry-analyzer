@@ -1,0 +1,383 @@
+{
+  "خوشحال": {
+    "APPRAISAL": "Affect (Positive)"
+  },
+  "غمگین": {
+    "APPRAISAL": "Affect (Negative)"
+  },
+  "عصبانی": {
+    "APPRAISAL": "Affect (Negative)"
+  },
+  "ترسیده": {
+    "APPRAISAL": "Affect (Negative)"
+  },
+  "نگران": {
+    "APPRAISAL": "Affect (Negative)"
+  },
+  "هیجان زده": {
+    "APPRAISAL": "Affect (Positive)"
+  },
+  "شرمنده": {
+    "APPRAISAL": "Affect (Negative)"
+  },
+  "ناامید": {
+    "APPRAISAL": "Affect (Negative)"
+  },
+  "راضی": {
+    "APPRAISAL": "Affect (Positive)"
+  },
+  "زیبا": {
+    "APPRAISAL": "Appreciation (Positive)"
+  },
+  "زشت": {
+    "APPRAISAL": "Appreciation (Negative)"
+  },
+  "باریک": {
+    "APPRAISAL": "Appreciation (Positive)"
+  },
+  "شیک": {
+    "APPRAISAL": "Appreciation (Positive)"
+  },
+  "جالب": {
+    "APPRAISAL": "Appreciation (Positive)"
+  },
+  "خسته کننده": {
+    "APPRAISAL": "Appreciation (Negative)"
+  },
+  "خوشمزه": {
+    "APPRAISAL": "Appreciation (Positive)"
+  },
+  "چشمگیر": {
+    "APPRAISAL": "Appreciation (Positive)"
+  },
+  "هماهنگ": {
+    "APPRAISAL": "Appreciation (Positive)"
+  },
+  "قهرمانانه": {
+    "APPRAISAL": "Judgment (Positive)"
+  },
+  "بزدلانه": {
+    "APPRAISAL": "Judgment (Negative)"
+  },
+  "احمقانه": {
+    "APPRAISAL": "Judgment (Negative)"
+  },
+  "مهربان": {
+    "APPRAISAL": "Judgment (Positive)"
+  },
+  "بی رحم": {
+    "APPRAISAL": "Judgment (Negative)"
+  },
+  "صادق": {
+    "APPRAISAL": "Judgment (Positive)"
+  },
+  "شجاع": {
+    "APPRAISAL": "Judgment (Positive)"
+  },
+  "فداکار": {
+    "APPRAISAL": "Judgment (Positive)"
+  },
+  "فریبکار": {
+    "APPRAISAL": "Judgment (Negative)"
+  },
+  "مسئولیت پذیر": {
+    "APPRAISAL": "Judgment (Positive)"
+  },
+  "شاد": {
+    "APPRAISAL": "Affect (Positive)"
+  },
+  "خوشبخت": {
+    "APPRAISAL": "Affect (Positive)"
+  },
+  "افسرده": {
+    "APPRAISAL": "Affect (Negative)"
+  },
+  "افسوس": {
+    "APPRAISAL": "Affect (Negative)"
+  },
+  "دلخور": {
+    "APPRAISAL": "Affect (Negative)"
+  },
+  "رنجیده": {
+    "APPRAISAL": "Affect (Negative)"
+  },
+  "وحشت‌زده": {
+    "APPRAISAL": "Affect (Negative)"
+  },
+  "خوب": {
+    "APPRAISAL": "Appreciation (Positive)"
+  },
+  "بد": {
+    "APPRAISAL": "Appreciation (Negative)"
+  },
+  "عالی": {
+    "APPRAISAL": "Appreciation (Positive)"
+  },
+  "قشنگ": {
+    "APPRAISAL": "Appreciation (Positive)"
+  },
+  "وحشتناک": {
+    "APPRAISAL": "Appreciation (Negative)"
+  },
+  "دلپذیر": {
+    "APPRAISAL": "Appreciation (Positive)"
+  },
+  "مهم": {
+    "APPRAISAL": "Appreciation (Positive)"
+  },
+  "موفق": {
+    "APPRAISAL": "Appreciation (Positive)"
+  },
+  "بی‌نظیر": {
+    "APPRAISAL": "Appreciation (Positive)"
+  },
+  "ارزشمند": {
+    "APPRAISAL": "Appreciation (Positive)"
+  },
+  "معرکه": {
+    "APPRAISAL": "Appreciation (Positive)"
+  },
+  "قهرمان": {
+    "APPRAISAL": "Judgment (Positive)"
+  },
+  "بزدل": {
+    "APPRAISAL": "Judgment (Negative)"
+  },
+  "احمق": {
+    "APPRAISAL": "Judgment (Negative)"
+  },
+  "وفادار": {
+    "APPRAISAL": "Judgment (Positive)"
+  },
+  "خائن": {
+    "APPRAISAL": "Judgment (Negative)"
+  },
+  "شریف": {
+    "APPRAISAL": "Judgment (Positive)"
+  },
+  "موذی": {
+    "APPRAISAL": "Judgment (Negative)"
+  },
+  "شجاعت": {
+    "APPRAISAL": "Judgment (Positive)"
+  },
+  "صادقانه": {
+    "APPRAISAL": "Judgment (Positive)"
+  },
+  "ناراحت": {
+    "APPRAISAL": "Affect (Negative)"
+  },
+  "ترس": {
+    "APPRAISAL": "Affect (Negative)"
+  },
+  "وحشت": {
+    "APPRAISAL": "Affect (Negative)"
+  },
+  "متنفر": {
+    "APPRAISAL": "Affect (Negative)"
+  },
+  "عذاب": {
+    "APPRAISAL": "Affect (Negative)"
+  },
+  "زیبایی": {
+    "APPRAISAL": "Appreciation (Positive)"
+  },
+  "تمیز": {
+    "APPRAISAL": "Appreciation (Positive)"
+  },
+  "مرتب": {
+    "APPRAISAL": "Appreciation (Positive)"
+  },
+  "درست": {
+    "APPRAISAL": "Appreciation (Positive)"
+  },
+  "قابل": {
+    "APPRAISAL": "Judgment (Positive)"
+  },
+  "راحت": {
+    "APPRAISAL": "Appreciation (Positive)"
+  },
+  "نحس": {
+    "APPRAISAL": "Appreciation (Negative)"
+  },
+  "کله‌شق": {
+    "APPRAISAL": "Judgment (Negative)"
+  },
+  "خودخواه": {
+    "APPRAISAL": "Judgment (Negative)"
+  },
+  "سنگ‌دل": {
+    "APPRAISAL": "Judgment (Negative)"
+  },
+  "خل": {
+    "APPRAISAL": "Judgment (Negative)"
+  },
+  "تنبل": {
+    "APPRAISAL": "Judgment (Negative)"
+  },
+  "لاشخور": {
+    "APPRAISAL": "Judgment (Negative)"
+  },
+  "حکمت": {
+    "APPRAISAL": "Appreciation (Positive)"
+  },
+  "سرزنده": {
+    "APPRAISAL": "Appreciation (Positive)"
+  },
+  "جسور": {
+    "APPRAISAL": "Judgment (Positive)"
+  },
+  "دیوانه": {
+    "APPRAISAL": "Judgment (Negative)"
+  },
+  "محکم": {
+    "APPRAISAL": "Appreciation (Positive)"
+  },
+  "بی‌گناه": {
+    "APPRAISAL": "Judgment (Positive)"
+  },
+  "باوفا": {
+    "APPRAISAL": "Judgment (Positive)"
+  },
+  "شیرین": {
+    "APPRAISAL": "Appreciation (Positive)"
+  },
+  "غم": {
+    "APPRAISAL": "Affect (Negative)"
+  },
+  "شادی": {
+    "APPRAISAL": "Affect (Positive)"
+  },
+  "افتخار": {
+    "APPRAISAL": "Affect (Positive)"
+  },
+  "امید": {
+    "APPRAISAL": "Affect (Positive)"
+  },
+  "کثیف": {
+    "APPRAISAL": "Appreciation (Negative)"
+  },
+  "صمیمی": {
+    "APPRAISAL": "Affect (Positive)"
+  },
+  "صبر": {
+    "APPRAISAL": "Judgment (Positive)"
+  },
+  "دلسوز": {
+    "APPRAISAL": "Judgment (Positive)"
+  },
+  "دوست داشتنی": {
+    "APPRAISAL": "Affect (Positive)"
+  },
+  "محبت": {
+    "APPRAISAL": "Affect (Positive)"
+  },
+  "عشق": {
+    "APPRAISAL": "Affect (Positive)"
+  },
+  "خشم": {
+    "APPRAISAL": "Affect (Negative)"
+  },
+  "نفرت": {
+    "APPRAISAL": "Affect (Negative)"
+  },
+  "لذت": {
+    "APPRAISAL": "Affect (Positive)"
+  },
+  "اضطراب": {
+    "APPRAISAL": "Affect (Negative)"
+  },
+  "شگفتی": {
+    "APPRAISAL": "Affect (Positive)"
+  },
+  "ناامیدی": {
+    "APPRAISAL": "Affect (Negative)"
+  },
+  "پشیمانی": {
+    "APPRAISAL": "Affect (Negative)"
+  },
+  "غرور": {
+    "APPRAISAL": "Affect (Positive)"
+  },
+  "شرم": {
+    "APPRAISAL": "Affect (Negative)"
+  },
+  "آزرده": {
+    "APPRAISAL": "Affect (Negative)"
+  },
+  "شگفت‌زده": {
+    "APPRAISAL": "Affect (Positive)"
+  },
+  "مبهوت": {
+    "APPRAISAL": "Affect (Positive)"
+  },
+  "پشیمان": {
+    "APPRAISAL": "Affect (Negative)"
+  },
+  "خشمگین": {
+    "APPRAISAL": "Affect (Negative)"
+  },
+  "نومید": {
+    "APPRAISAL": "Affect (Negative)"
+  },
+  "بی‌ارزش": {
+    "APPRAISAL": "Appreciation (Negative)"
+  },
+  "قدرتمند": {
+    "APPRAISAL": "Appreciation (Positive)"
+  },
+  "ضعیف": {
+    "APPRAISAL": "Appreciation (Negative)"
+  },
+  "عمیق": {
+    "APPRAISAL": "Appreciation (Positive)"
+  },
+  "سطحی": {
+    "APPRAISAL": "Appreciation (Negative)"
+  },
+  "مسخره": {
+    "APPRAISAL": "Appreciation (Negative)"
+  },
+  "باشکوه": {
+    "APPRAISAL": "Appreciation (Positive)"
+  },
+  "شگفت‌انگیز": {
+    "APPRAISAL": "Appreciation (Positive)"
+  },
+  "غم‌انگیز": {
+    "APPRAISAL": "Appreciation (Negative)"
+  },
+  "گناهکار": {
+    "APPRAISAL": "Judgment (Negative)"
+  },
+  "وظیفه‌شناس": {
+    "APPRAISAL": "Judgment (Positive)"
+  },
+  "بی‌مسئولیت": {
+    "APPRAISAL": "Judgment (Negative)"
+  },
+  "فروتن": {
+    "APPRAISAL": "Judgment (Positive)"
+  },
+  "متکبر": {
+    "APPRAISAL": "Judgment (Negative)"
+  },
+  "نجیب": {
+    "APPRAISAL": "Judgment (Positive)"
+  },
+  "پست": {
+    "APPRAISAL": "Judgment (Negative)"
+  },
+  "بی‌ادب": {
+    "APPRAISAL": "Judgment (Negative)"
+  },
+  "مؤدب": {
+    "APPRAISAL": "Judgment (Positive)"
+  },
+  "دروغگو": {
+    "APPRAISAL": "Judgment (Negative)"
+  },
+  "شرم‌آور": {
+    "APPRAISAL": "Judgment (Negative)"
+  }
+}

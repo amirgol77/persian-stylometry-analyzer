@@ -1,0 +1,15 @@
+# Virtual Environment
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# User uploads folder
+uploads/
+
+# Large model files
+models/
+
+# OS-specific files
+.DS_Store
