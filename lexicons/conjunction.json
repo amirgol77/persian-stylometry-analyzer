@@ -56,9 +56,6 @@
   "دقیق‌تر بگویم": {
     "CONJUNCTION": " Elaboration/Clarification "
   },
-  "اساساً": {
-    "CONJUNCTION": " Elaboration/Clarification "
-  },
   "خلاصه": {
     "CONJUNCTION": " Elaboration/Clarification "
   },
@@ -243,12 +240,6 @@
     "CONJUNCTION": "Enhancement/Spatiotemporal"
   },
   "وقتی که": {
-    "CONJUNCTION": "Enhancement/Spatiotemporal"
-  },
-  "همیشه": {
-    "CONJUNCTION": "Enhancement/Spatiotemporal"
-  },
-  "گاهی": {
     "CONJUNCTION": "Enhancement/Spatiotemporal"
   },
   "متعاقباً": {
